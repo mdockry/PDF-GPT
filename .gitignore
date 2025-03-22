@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+.env
+*.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore Streamlit and editor-specific files
+.streamlit/config.toml
+.idea/
+.vscode/
