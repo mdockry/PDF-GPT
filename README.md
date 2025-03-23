@@ -26,18 +26,6 @@ Built with **Streamlit**, **OpenAI**, and **tiktoken**.
 
 ---
 
-## 📦 Requirements
-
-```bash
-pip install -r requirements.txt
-``` 
-
-You’ll also need an `.env` file containing your OpenAI key:
-
-```ini
-OPENAI_API_KEY=your-key-here
-```
-
 ## 🛠️ Tech Stack
 
 - Streamlit  
