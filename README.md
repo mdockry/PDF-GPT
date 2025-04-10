@@ -26,20 +26,3 @@ Built with **Streamlit**, **OpenAI**, and **tiktoken**.
 
 ---
 
-## 🛠️ Tech Stack
-
-- Streamlit  
-- OpenAI API  
-- tiktoken  
-- PyMuPDF (`fitz`)  
-- NumPy  
-
-## ✅ How it Works
-
-1. Upload a PDF  
-2. It’s split into ~500-token chunks  
-3. Each chunk is embedded using `text-embedding-ada-002`  
-4. Your question is also embedded  
-5. Cosine similarity finds the most relevant chunks  
-6. GPT generates a response based on those chunks  
-
